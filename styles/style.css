@@ -131,7 +131,9 @@ body {
     }
     
     .cabecalho__menu {
-        justify-content: center;
+        justify-content: space-evenly;
+        gap: 15px;
+        
     }
 
     .apresentacao {
@@ -141,5 +143,14 @@ body {
 
     .apresentacao__conteudo {
         width: auto;
+    }
+
+    .apresentacao__links {
+        width: auto;
+    }
+    
+    .apresentacao__links__navegacao {
+        width: auto;
+        
     }
 }
